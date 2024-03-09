@@ -12,7 +12,7 @@ import java.util.Comparator;
 public class Debug {
     private Debug() { }
 
-    // controlla se obj (o una superclass) ha dei campi che si chiamano a vicenda sennò so cazzi
+    // prima controlla se obj (o una superclass) ha dei campi che si chiamano a vicenda
     public static <E> void printObjectInfo(E obj, String name) {
         Class<?> oClass = obj.getClass();
 
